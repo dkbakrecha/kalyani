@@ -1,0 +1,91 @@
+.form-horizontal .control-label{
+    margin-bottom: 5px;
+}
+
+.color-active{
+    color: #89af4c;
+}
+
+.color-inactive{
+    color: #B33;
+}
+
+/* Custom grid CSS  */
+
+.grid-wrap .ui-widget-content, .grid-wrap table, .grid-wrap table td {
+    border-color: #dedede;
+}
+.grid-wrap .ui-jqgrid.ui-widget.ui-widget-content.ui-corner-all {
+    border: 1px solid #dedede;
+    border-radius: 1px;
+    overflow: hidden;
+}
+.grid-wrap .ui-state-default {
+    background: none repeat scroll 0 0 #fafafa;
+}
+.grid-wrap .ui-jqgrid-htable tr th {
+    color: #999;
+    font-weight: 600;
+}
+.grid-wrap .ui-jqgrid-htable tr {
+    height: 34px;
+}
+.grid-wrap .ui-jqgrid-bdiv tr {
+    height: 28px;
+}
+.grid-wrap .ui-state-active {
+    background: none repeat scroll 0 0 #f7dd80 !important;
+}
+.grid-wrap .ui-jqgrid-bdiv tr.jqgrow.ui-state-highlight {
+    background: none repeat scroll 0 0 #fbf9de !important;
+}
+.grid-wrap .ui-jqgrid-bdiv tr.jqgrow:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #f6f6f6;
+}
+.grid-wrap .jqgrow.ui-state-hover, .grid-wrap .ui-jqgrid-bdiv tr.jqgrow:hover {
+    background: none repeat scroll 0 0 #dcdcdc !important;
+}
+
+.grid-wrap .ui-jqgrid-bdiv tr{
+    font-size: 13px;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th div{
+    font-size: 14px;
+    color : #5fc5cf;
+}
+
+.ui-jqgrid .ui-pg-input {
+    font-size: 1em;
+    height: 18px;
+    margin: 0;
+    width: 15px;
+}
+
+.ui-jqgrid .ui-pg-selbox {
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 0;
+    height: 28px;
+    width: 60px;
+}
+
+.ui-jqgrid .ui-jqgrid-pager{
+    font-size: 14px;
+    height: 32px;
+}
+
+.ui-jqgrid .ui-pg-table td{
+    color : #5fc5cf;
+}
+
+.ui-search-input {
+    display: block;
+}
+
+.clearsearchclass {
+    display: block;
+    margin-top: -15px;
+}
+/* ===== CUSTOM GRID END ===== */
